@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="jerry.css" >
+<link rel="stylesheet1" href="icon.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" style="background-color: #000000;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	<img src="images/11.png" width="50px">
+      <a class="navbar-brand" href="#" style="color:white"><b>Supermarket Automation Software</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+       <li><a href="#prodcts">Products</a></li>
+ 	<li><a href="#">SignIn</a></li>
+ 	<li><a href="#">SignUp</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/1223.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Shopping made easy</h3>
+          <p>Always Welcome</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/12345.jpg	" alt="Image">
+        <div class="carousel-caption">
+          <h3>Feed the Family</h3>
+          <p>The Best</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    
+</div>
+  
+<div class="container text-center" id="prodcts">    
+  <h3></h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="images/33.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Food Iteams</p>
+    </div>
+    <div class="col-sm-3"> 
+      <img src="images/44.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Shampoos</p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="images/55.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <p>Diary Products</p>
+      </div>
+      <div class="col-sm-3"> 
+        <img src="images/1233.webp" class="img-responsive" style="width:100%" alt="Image">
+        <p>Snacks</p>    
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center" id=contact>
+<div style="background-color: #ff6600; padding:1px;"><br>
+<h4 text><u><b>Contact Us</b></u></h4>
+</div>
+	<div style="background-color:white; margin:40px;">
+			<div >
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+
+				<p> <i class="fas fa-home mr-3"></i>IIIT-RGUKT RKVALLEY,KADAPA,AP-516330</p> 
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+
+ 	 			<p> <i class="fas fa-envelope mr-3"></i>sas@gmail.com</p>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+ 
+ 	  			<p> <i class="fas fa-phone mr-3"></i> +91 xxxxxxxxxx</p> 
+</svg>
+			</div>
+	</div>
+
+
+</footer>
+
+</body>
+</html>
